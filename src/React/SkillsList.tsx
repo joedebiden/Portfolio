@@ -18,18 +18,32 @@ const SkillsList = () => {
   const skills = {
     'Web Development': [
       'Single Page Applications (SPAs)',
-      'Landing pages and business websites',
-      'Portfolio websites',
+      'Dynamic and responsive websites',
+      'Frontend with React, TailwindCSS & ShadCN',
+      'Backend with Flask, Django & Symfony',
     ],
-    'Mobile Development': [
-      'Mobile-friendly web apps',
-      'React Native mobile apps'
+    'API & Backend Development': [
+      'RESTful API development with Flask & Spring Boot',
+      'Secure authentication (JWT, OAuth)',
+      'Database management (SQL, PostgreSQL, SQLite)',
     ],
-    'UI/UX Design & Prototyping': [
-      'UI design with Figma & Canva',
-      'UX research & improvements',
-      'Prototyping for websites & mobile apps',
-    ]
+    'System Administration & Security': [
+      'Linux & Windows server management',
+      'Firewall configuration & SSL/TLS setup',
+      'Reverse proxy & secure network setup',
+      'SSH & Virtual Machine management & Docker',
+    ],
+    'Software Development': [
+      'Python, Php & JavaScript advanced programming',
+      'Windows-friendly applications',
+      'Code quality: unit testing & design patterns',
+    ],
+    'Project Management & Teamwork': [
+      'Agile methodology & sprint planning',
+      'Team collaboration on school projects',
+      'Technical documentation & requirements analysis',
+      'Git version control & collaboration',
+    ],
   };
 
   const toggleItem = (item: string) => {
