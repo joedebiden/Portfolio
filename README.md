@@ -4,7 +4,8 @@ Developed with passion while listening to _Hurry Up Tomorrow by The Weeknd_. Com
 [![Deploy Status](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)](tu-url-deploy)  
 
 ---
-Demo: https://oscarhernandez.vercel.app/
+This is a fork of the repo https://github.com/Gothsec/Portfolio
+
 
 ## **Stack**  
 ### **Frontend**  
@@ -40,3 +41,5 @@ npm install
 ```  
 npm run dev
 ```
+
+A huge thanks to Oscar Hernandez
