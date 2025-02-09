@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
+import valenstagram from "../../public/valenstagram.png";
+import telebox from "../../public/telebox.png";
 
 interface Project {
   title: string;
@@ -14,14 +14,14 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Telegram scraper/adder",
-    image: stockin as ImageMetadata,
+    image: telebox as ImageMetadata,
     link: "https://github.com/joedebiden/Telebox-scraper-adder-app",
     preview: "https://telegram-toolbox.online/",
     status: "In Development",
   },
   {
     title: "Valenstagram",
-    image: svgl as ImageMetadata,
+    image: valenstagram as ImageMetadata,
     link: "https://github.com/joedebiden/Valenstagram",
     preview: "",
     status: "Under heavy Development",
